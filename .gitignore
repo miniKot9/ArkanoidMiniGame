@@ -73,3 +73,32 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Unity generated
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+results/
+
+# Visual Studio cache
+.vs/
+
+# macOS
+.DS_Store
+# Linux
+.resharper/
+# Windows
+Thumbs.db
+
+# Игнорировать файлы метаданных для несуществующих ассетов
+*.meta
+
+# APK файлы
+*.apk
+*.aab
+
+# Сборки
+*.unitypackage
